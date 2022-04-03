@@ -6,8 +6,7 @@ from sendgrid.helpers.mail import Mail
 
 message = Mail(
     from_email='no-reply@mkv.tec.br',
-    to_emails='marcelo.cutulo82@gmail.com', 
-    # to_emails=['marcelo.cutulo82@gmail.com', 'marcelo.cutulo@gmail.com', 'marcelo.cutulo@iob.com.br'], 
+    to_emails='seu-email@exemplo.com', 
     subject='Enviando E-mail para testar o SendGrid',
     html_content='<strong>Teste de envio utilizando API do Sendgrid com Python</strong>')
 try:
